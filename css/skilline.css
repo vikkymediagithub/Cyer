@@ -90,6 +90,73 @@
     border-top: 1px solid gray;
   }
 
+  /* Discover */
+#dico {
+  padding: 20px;
+  color: white;
+  background: transparent;
+}
+#dico h2 {
+  font-size: 2.5em;
+  background: linear-gradient(89.83deg, #2563eb 0.11%, #d946ef 58.65%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+#dico p {
+  font-size: 1em;
+}
+#dico .btn {
+  font-size: 1em;
+}
+
+/* Media query for mobile view */
+@media (max-width: 768px) {
+  #dico h2 {
+      font-size: 3em;
+
+  }
+  #dico p {
+      font-size: 15px;
+  }
+  #dico .btn {
+      font-size: 0.9em;
+      border: none;
+      color: white;
+  }
+  #dico .row {
+      flex-direction: column;
+      text-align: center;
+  }
+  #dico img {
+      margin-top: 20px;
+      width: 100%;
+  }
+}
+
+/* Set Card */
+.set-card{
+  -webkit-text-fill-color: transparent;
+  background: linear-gradient(20deg, cyan, magenta);
+  -webkit-background-clip: text;
+}
+.card {
+  margin-bottom: 20px;
+}
+.card-body i {
+  font-size: 2em;
+}
+@media (max-width: 768px) {
+  .card-body i {
+      font-size: 1.5em;
+  }
+  .card-title {
+      font-size: 1.2em;
+  }
+  .card-text {
+      font-size: 0.9em;
+  }
+}
+
 /* Anime */
 /* .anime{
     min-height: 100vh;
