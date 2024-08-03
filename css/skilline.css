@@ -11,6 +11,10 @@
     background-color: #090a0c;
 }
 
+.logo img{
+  width: 20%;
+}
+
 /* Login cta */
 .cta{
     background: linear-gradient(89.83deg, #2563eb 0.11%, #d946ef 58.65%);
