@@ -1,3 +1,11 @@
+*{
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+}
+
+
 /*primary color*/
 .bg-cream {
     background-color: #090a0c;
@@ -206,6 +214,22 @@ body {
 .text-darken {
     color: #2F327D;
 }
+
+/* Start Price Section */
+.brack{
+  -webkit-text-fill-color: transparent;
+  background: linear-gradient(20deg, cyan, magenta);
+  -webkit-background-clip: text;
+  background-color: #091222;
+}
+
+.card-btn{
+  background: linear-gradient(20deg, cyan, magenta);
+  color: white;
+  text-decoration: none;
+  font-size: 15px;
+}
+/* End Price Section */
 
 /* Start F&Q Section */
 h2{
